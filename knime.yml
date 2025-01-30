@@ -1,0 +1,11 @@
+name: obo_reader_extension           # Nom de l’extension
+author: "De Sousa Mathis"
+env_yml_path: environment.yml          # Chemin vers l'env conda à bundler
+extension_module: obo_reader  # Nom du script principal .py (sans l'extension)
+description: "Extension pour lire des fichiers OBO avec obonet & polars"
+long_description: "Cette extension fournit un nœud pour parser des fichiers OBO et produire deux tables (nœuds & arêtes)."
+group_id: com.ciad.handling_obo_file              # Votre identifiant organisationnel
+version: 0.1.0
+vendor: "CIAD"
+license_file: LICENSE.txt
+feature_dependencies: []

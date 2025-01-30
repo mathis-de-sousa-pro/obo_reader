@@ -1,0 +1,14 @@
+name: obo_knime_env
+channels:
+  - conda-forge
+  - knime
+dependencies:
+  - python=3.11        # ou autre version supportée
+  - knime-extension=5.4
+  - knime-python-base=5.4
+  - pip
+  - pip:
+    - obonet
+    - polars
+    - pandas
+    - networkx
